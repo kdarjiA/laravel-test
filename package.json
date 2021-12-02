@@ -24,6 +24,6 @@
     },
     "dependencies": {
         "acorn": "^7.4.1",
-        "socket.io-client": "^4.4.0"
+        "socket.io-client": "2.3.0"
     }
 }

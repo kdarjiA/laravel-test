@@ -5,15 +5,7 @@
   "clients": [],
   "database": "redis",
   "databaseConfig": {
-    "redis": {
-      "host": "redis",
-      "port": "6379",
-
-      "keyPrefix": "laravel_database_",
-      "options": {
-        "db": "0"
-      }
-    },
+    "redis": {},
     "sqlite": {
       "databasePath": "/database/laravel-echo-server.sqlite"
     },
