@@ -61,7 +61,7 @@ services:
       volumes:
           - ./:/app
       environment:
-          - LARAVEL_ECHO_SERVER_AUTH_HOST=http://localhost
+          - LARAVEL_ECHO_SERVER_AUTH_HOST=test_app
           - LARAVEL_ECHO_SERVER_REDIS_HOST=redis
       ports:
           - 6001:6001
